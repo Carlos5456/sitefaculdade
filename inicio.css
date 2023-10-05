@@ -16,7 +16,7 @@
     z-index: -1;
 }
 
-
+/* AQUI EM CIMA EU COLOQUEI UMA IMAGEM DE FUNDO NA TAG BODY DA PAGINA E TAMBEM DEFINI UMA FONTE PADRÃO PARA TODOS OS ITENS */
 /* ============================== CABECALHO ==================================================== */
 .cabecalho {
     top: 100%;
@@ -28,6 +28,7 @@
     padding: 10px 20px;
 
 }
+
 .paginas {
     background-color: #4ab3d2;
     border: 2px solid black;
@@ -38,26 +39,26 @@
 
 }
 
-.paginas:hover  {
+.paginas:hover {
     background-color: #328097;
     color: white;
     transition: 0.5s;
     padding: 15px;
     font-size: 15px;
 
-    }
+}
 
 .paginas a {
     text-decoration: none;
     color: black;
 }
 
-
 .itens {
     padding: 0px;
 }
-/* ============================== CABECALHO ==================================================== */
 
+/* ACIMA SÃO APENAS AS CONFIGURAÇÕES DE BELEZA DE ESTILO DO CABECALHO MENU */
+/* ============================== CABECALHO ==================================================== */
 .conteudo {
     justify-content: center;
     position: absolute;
@@ -65,3 +66,5 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/* ACIMA É AS DEFINIÇÕES DE ESTILO DO BLOCO CENTRAL DE TODAS AS PAGINAS PARA CENTRALIZAR NO MEIO E DEIXAR MAIS BONITO E VISISVEL */

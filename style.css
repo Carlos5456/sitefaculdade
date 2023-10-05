@@ -16,7 +16,7 @@
     z-index: -1;
 }
 
-
+/* AQUI EM CIMA EU COLOQUEI UMA IMAGEM DE FUNDO NA TAG BODY DA PAGINA E TAMBEM DEFINI UMA FONTE PADRÃO PARA TODOS OS ITENS */
 /* ============================== CABECALHO ==================================================== */
 .cabecalho {
     top: 100%;
@@ -28,37 +28,36 @@
     border-radius: 10px;
     padding: 0px 20px;
 }
+
 .paginas {
     background-color: #4ab3d2;
     border: 2px solid black;
     border-radius: 10px;
     list-style: none;
     padding: 10px;
-
-
 }
 
-.paginas:hover  {
+.paginas:hover {
     background-color: #328097;
     color: white;
     transition: 0.5s;
     padding: 15px;
     font-size: 15px;
 
-    }
+}
 
 .paginas a {
     text-decoration: none;
     color: black;
 }
 
-
 .itens {
 
     display: flex;
     max-height: 250px;
-
 }
+
+/* ACIMA SÃO APENAS AS CONFIGURAÇÕES DE BELEZA DE ESTILO DO CABECALHO MENU */
 /* ============================== CABECALHO ==================================================== */
 
 
@@ -78,6 +77,7 @@
     overflow-y: scroll;
 }
 
+/* ACIMA É AS DEFINIÇÕES DE ESTILO DO BLOCO CENTRAL DE TODAS AS PAGINAS PARA CENTRALIZAR NO MEIO E DEIXAR MAIS BONITO E VISISVEL */
 
 
 /* ================ PAGINA SOBRE MIM ========================= */
@@ -85,15 +85,15 @@
 .foto {
     max-width: 400px;
 }
+
 .video {
     max-height: 500px;
 }
 
-
-
+/* ACIMA EU DEFINO UM TAMANHO MAXIMO PARA O VIDEO E AS FOTOS DO SITE */
 /* ================ PAGINA SOBRE MIM ========================= */
 
-.curriculo{
+.curriculo {
     justify-content: center;
     position: absolute;
     top: 45%;
@@ -105,8 +105,13 @@
 
 }
 
+/* ACIMA EU FALO PARA CENTRALIZAR A TAG QUE SELECIONA O MEU CURRICULO */
+
+
 .pdf {
 
     width: 1000px;
     height: 600px;
 }
+
+/* ACIMA EU FALO O TAMANHO MAXIMO QUE É PARA DEIXAR O SISTEMA QUE MOSTRA O MEU DOCUMENTO DO CURRICULO */
