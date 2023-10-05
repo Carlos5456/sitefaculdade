@@ -62,4 +62,51 @@
 /* ============================== CABECALHO ==================================================== */
 
 
+.conteudo {
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.623);
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    max-height: 500px;
+    overflow-y: scroll;
+}
 
+
+
+/* ================ PAGINA SOBRE MIM ========================= */
+
+.foto {
+    max-width: 400px;
+}
+.video {
+    max-height: 500px;
+}
+
+
+
+/* ================ PAGINA SOBRE MIM ========================= */
+
+.curriculo{
+    justify-content: center;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    text-align: center;
+    max-height: 500px;
+
+}
+
+.pdf {
+
+    width: 1000px;
+    height: 600px;
+}
